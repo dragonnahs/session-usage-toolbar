@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "local.session-usage-toolbar",
+  "name": "Session Usage Toolbar",
+  "version": "0.2.1",
+  "description": "在输入框工具栏查看当前会话 Token 用量。",
+  "main": "main.js",
+  "renderer": "renderer/index.mjs",
+  "rendererActions": ["plugin.call"],
+  "rendererCallMethods": ["getActiveSession", "getUsage"],
+  "permissions": ["renderer.extension", "usage.read"],
+  "contributes": {
+    "commands": [
+      {
+        "id": "token-usage.open",
+        "title": "会话用量：打开",
+        "keywords": ["token", "usage", "用量"]
+      }
+    ]
+  },
+  "engines": { "piDesktop": ">=0.17.0" },
+  "activationEvents": ["onStartup", "onCommand:token-usage.open"]
+}
