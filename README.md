@@ -16,16 +16,18 @@ PI-Desktop 插件：在输入框工具栏放一个用量图标，点开即可查
 
 ## 安装
 
-已打包版本：`dist/local.session-usage-toolbar-0.2.1.piplug`
+已打包版本：`dist/com.dragonnahs.session-usage-toolbar-0.3.0.piplug`
 
 1. PI-Desktop → 插件 → 右上角菜单 → **安装插件包**
-2. 选择 `dist/local.session-usage-toolbar-0.2.1.piplug`
+2. 选择 `dist/com.dragonnahs.session-usage-toolbar-0.3.0.piplug`
 3. 确认权限：`renderer.extension`（高风险）、`usage.read`
 4. 打开任意会话，点击输入框工具栏右侧的用量图标
 
 开发加载：插件页 → 右上角菜单 → **加载本地插件** → 选择本目录。
 
-安装包 SHA-256：`e4ed25bae390d6b077de96032acc855df04fdb754b88e8c30fa56d61294af9fd`
+插件 id：`com.dragonnahs.session-usage-toolbar`（0.3.0 起；旧 id `local.session-usage-toolbar` 会被识别为另一个插件，请先卸载旧的）
+
+安装包 SHA-256：`c4da8d3b5ebba2ffc87b41c57d06db9ab6b0c0917fbceac6dcc57ff2ca64d736`
 
 ## 要求与限制
 

@@ -1,4 +1,9 @@
 # Changelog
+## 0.3.0
+
+- 插件 id 由 `local.session-usage-toolbar` 改为 `com.dragonnahs.session-usage-toolbar`，用于正式发布
+- 升级前请先卸载旧 id 的插件，两者会被识别为不同插件
+
 
 ## 0.2.1
 
